@@ -3,12 +3,19 @@ body {
 }
 header {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 ul {
     /*Это чтобы убрать точки в списках*/    
     list-style-type: none;
     text-align: center;
+    padding: 0px;
+}
+
+li {
+    display: inline;
+    margin-right: 100px;
 }
 
 a {
@@ -20,21 +27,10 @@ a {
     font-size: 18px;
 }
 
-div {
-    background-color: green;
-    /* По часовой стрелке верх, право, низ, лево */
-    margin: 30px 50px 50px 0px;
-    padding: 20px 40px 0px 0px;
-    /*Здесь размер рамки, потом вид рамки, цвет рамки*/
-    border: 3px solid black;
-    width: 500px;
-    /*Так можно из блочного сделать строчныйblock
-    display: inline;*/
-    /*display: inline-block*/
+li:last-child {
+    margin-right: 0px;
 }
-.test {
-    /*Это не работает, т.к. это свойства не для 
-    строчного элемента */
-    margin: 50px 0px 50px 0px;
-    width: 500px;
+
+nav {
+    margin-bottom: 20px;
 }
