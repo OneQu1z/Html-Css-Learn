@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My rep for learning HTML + CSS">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Dmitry Kochelyagin">
+    <title>Document</title>
+
+    <!--Внутри head можно задавать внутренние стили для документа-->
+    <!--Выравнивание текста по центу text-allign -->
+    <style>
+        header {
+            text-allign: center; 
+        }
+    </style>
+
+    <!--Внутри headм можно указывать внешние стили-->
+    <link rel="stylesheet" href="mystyle.css">
+
+    <!--Внутри head обычно указываются скрипты-->
+    <script>
+        function myFunction {
+            document.getElementById("demo").innerHTML = "Hello JavaScript!";
+        }
+    </script>
+    <!--Тег base используется для указания основного URL страницы, 
+    относитльно которого разрешаются все остальные URL на странице-->
+    <base href="http://localhost:8080/" target="_blank">
+</head>
+<body>
+    
+</body>
+</html>
