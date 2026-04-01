@@ -1,0 +1,40 @@
+body {
+    background-color: #FFE2B0;
+}
+header {
+    text-align: center;
+}
+
+ul {
+    /*Это чтобы убрать точки в списках*/    
+    list-style-type: none;
+    text-align: center;
+}
+
+a {
+    
+    color: black;
+    /* Это декорация цвета, подчеркивание, жирный, курсив и т.д. */
+    /*text-decoration: none;*/
+    text-decoration: none;
+    font-size: 18px;
+}
+
+div {
+    background-color: green;
+    /* По часовой стрелке верх, право, низ, лево */
+    margin: 30px 50px 50px 0px;
+    padding: 20px 40px 0px 0px;
+    /*Здесь размер рамки, потом вид рамки, цвет рамки*/
+    border: 3px solid black;
+    width: 500px;
+    /*Так можно из блочного сделать строчныйblock
+    display: inline;*/
+    /*display: inline-block*/
+}
+.test {
+    /*Это не работает, т.к. это свойства не для 
+    строчного элемента */
+    margin: 50px 0px 50px 0px;
+    width: 500px;
+}
