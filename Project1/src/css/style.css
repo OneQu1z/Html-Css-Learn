@@ -52,8 +52,8 @@ nav {
     width: 420px;
     height: 190px;
     position: absolute;
-    top: 349px;
-    left: 730px;
+    top: 54%;
+    left: 50%;
     background: linear-gradient(180deg, rgba(244,213,178,0.8)0%,
      rgba(234,156,65,0.8)100%);
     padding-top: 15px;
@@ -65,4 +65,18 @@ nav {
     height: 160px;
     border: 1px solid black;
     margin: 0 auto;
+    padding: 17px 0 0 29px;
+    text-align: left;
+}
+
+.section-about__title {
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 9px;
+}
+
+.section-about__text {
+    font-size: 12px;
+    margin: 0;
+
 }
